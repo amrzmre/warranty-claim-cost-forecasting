@@ -1,0 +1,20 @@
+# Confidential data
+data/*.csv
+data/*.xlsx
+!data/README.md
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Processed output files
+fy24_monthly_actual.csv
